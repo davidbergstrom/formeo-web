@@ -4,20 +4,23 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Test posts</h1>
+    <section class="Cornerstone">
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <div class="Container">
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+            <h2 class="Cornerstone-title">
+                Automate your company’s<br>
+                production in an additive manner
+            </h2>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+            <p class="Cornerstone-body">With the recent advancements in 
+            additive manufacturing technology, the most natural step for 
+            OEM’s and manufacturing companies will be to shift their production 
+            towards a more automated system with additive manufacturing as the 
+            core production method.</p>
+
+        </div> <!-- .Container -->
+
+    </section> <!-- .Cornerstone -->
 
 </div>
