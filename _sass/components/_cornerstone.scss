@@ -1,7 +1,11 @@
+.Cornerstones {
+    @extend .group;
+}
+
 .Cornerstone {
     @extend .group;
     border-bottom: 1px solid #ededed;
-    padding: 6em 0;
+    padding: 7em 0;
 } 
 
 .Cornerstone-description {
@@ -36,6 +40,7 @@
 
 .Cornerstone-body {
     color: #777;
+    font-size: 1.2em;
 }
 
 .Cornerstone-img {

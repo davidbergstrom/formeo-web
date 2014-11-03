@@ -48,6 +48,7 @@ $header-height: 86px;
 }
 
 .Main {
+    @extend .group;
     height: 100%;
 }
 
