@@ -2,13 +2,18 @@
  * Basic styling
  */
 body {
+    background-color: $background-color;
+    color: $text-color;
     font-family: $base-font-family;
     font-size: $base-font-size;
     line-height: $base-line-height;
     font-weight: 400;
-    color: $text-color;
-    background-color: $background-color;
+    font-variant-ligatures: common-ligatures;
     -webkit-text-size-adjust: 100%;
+}
+
+html, body {
+    height: 100%;
 }
 
 /**
@@ -19,6 +24,12 @@ p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
     margin-bottom: $spacing-unit / 2;
+}
+
+.group:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 /**

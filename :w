@@ -31,7 +31,6 @@
     color: #101b27;
     font-size: 2em;
     font-weight: 600;
-    line-height: 1.2em;
 }
 
 .Cornerstone-body {
@@ -53,11 +52,11 @@
 .Cornsterstone-img--newMethod {
     @extend .Cornerstone-img;
     position: relative;
+    margin-top: -10px;
 }
 
 .Cornsterstone-img--streamline {
     @extend .Cornerstone-img;
     position: relative;
     margin-top: -10px;
-    width: 300px;
 }

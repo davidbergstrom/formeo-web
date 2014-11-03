@@ -3,7 +3,6 @@
 ---
 @charset "utf-8";
 
-
 // Our variables
 $base-font-family: "ff-tisa-web-pro", "Tisa Pro", sans-serif;
 $heading-font-family: "ff-tisa-sans-web-pro", "Tisa Sans Pro", sans-serif;
@@ -40,8 +39,10 @@ $on-laptop:        800px;
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "reset",
+        "utilities",
         "base",
         "layout",
         "syntax-highlighting",
+        "components/page-intro",
         "components/cornerstone"
 ;
