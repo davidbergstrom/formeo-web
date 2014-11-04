@@ -10,6 +10,7 @@ body {
     font-weight: 400;
     font-variant-ligatures: common-ligatures;
     -webkit-text-size-adjust: 100%;
+    padding-top: $header-height;
 }
 
 html, body {
@@ -79,6 +80,10 @@ h1, h2, h3, h4, h5, h6 {
 a {
     color: $brand-color;
     text-decoration: none;
+    -webkit-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    -o-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
 
     &:visited {
         color: darken($brand-color, 15%);

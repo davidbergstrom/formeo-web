@@ -1,0 +1,25 @@
+.Navigation {
+    float: right;
+    font-family: $heading-font-family;
+    margin-right: $spacing-unit;
+}
+
+.Navigation-link {
+    color: white;
+    display: inline-block;
+    line-height: $header-height;
+
+    &:not(:first-child) {
+        margin-left: 20px;
+    }
+
+    &:visited {
+        color: white;
+    }
+
+    &:hover {
+        color: #7A8CA5;
+        cursor: pointer;
+        text-decoration: none;
+    }
+}

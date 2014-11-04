@@ -62,3 +62,9 @@ function backgroundResize() {
 $(window).resize(backgroundResize);
 $(window).focus(backgroundResize);
 backgroundResize();
+
+$(".PageIntro-arrowDown").click(function() {
+    $('html, body').animate({
+        scrollTop: $(".Cornerstones").offset().top
+    }, 1000);
+});

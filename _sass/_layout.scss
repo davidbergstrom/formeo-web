@@ -6,50 +6,10 @@
 }
 
 
-/**
- * Header 
- */
-$header-height: 86px;
-
-.Header {
-    background: #2e3037;
-    height: $header-height;
-}
-
-.Header-title {
-    font-size: 2em;
-    line-height: 56px;
-    letter-spacing: -1px;
-    margin: 0;
-    float: left;
-
-    & > a,
-    & > a:visited {
-        color: white;
-        line-height: $header-height;
-        margin-left: $spacing-unit;
-    }
-}
-
-.Navigation {
-    font-family: $heading-font-family;
-    float: right;
-    margin-right: $spacing-unit;
-}
-
-.Navigation-link {
-    color: white;
-    display: inline-block;
-    line-height: $header-height;
-
-    &:not(:first-child) {
-        margin-left: 20px;
-    }
-}
-
 .Main {
     @extend .group;
     height: 100%;
+    margin-top: -($header-height);
 }
 
 /**

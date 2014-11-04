@@ -23,6 +23,8 @@ $grey-color-dark:  darken($grey-color, 25%);
 $on-palm:          600px;
 $on-laptop:        800px;
 
+$header-height: 86px;
+
 // Using media queries with like this:
 // @include media-query($palm) {
 //     .wrapper {
@@ -43,6 +45,9 @@ $on-laptop:        800px;
         "base",
         "layout",
         "syntax-highlighting",
+        "components/sticky-header",
+        "components/navigation",
         "components/page-intro",
-        "components/cornerstone"
+        "components/cornerstone",
+        "components/timeline"
 ;
