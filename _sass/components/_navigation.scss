@@ -1,6 +1,7 @@
 .Navigation {
     float: right;
     font-family: $heading-font-family;
+    font-size: 1.1em;
     margin-right: $spacing-unit;
 }
 
@@ -10,13 +11,14 @@
     line-height: $header-height;
 
     &:not(:first-child) {
-        margin-left: 20px;
+        margin-left: 30px;
     }
 
     &:visited {
         color: white;
     }
 
+    &.current,
     &:hover {
         color: #7A8CA5;
         cursor: pointer;
