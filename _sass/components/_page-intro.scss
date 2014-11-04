@@ -1,7 +1,10 @@
 .PageIntro {
-    background-image: url(../img/mountains-opt.jpg);
     background-repeat:no-repeat;
-    background-position:50% 50%;
+    background-position:100% 50%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 
     min-height: 100%;
     height:100%;
@@ -9,10 +12,30 @@
 
     h2 {
         color: white;
-        font-size: 5em;
+        font-size: 3em;
         font-weight: 600;
+        margin-top: $header-height;
         text-shadow: 2px 2px 10px #222;
     }
+}
+
+.PageIntro--start {
+    @extend .PageIntro;
+    background-image: url(../img/mountains-opt.jpg);
+}
+
+.PageIntro--advisoryBoard {
+    @extend .PageIntro;
+    background-image: url(../img/bag.jpg);
+    min-height: 700px;
+    height: 700px;
+}
+
+.PageIntro--consulting {
+    @extend .PageIntro;
+    background-image: url(../img/advise.jpg);
+    min-height: 700px;
+    height: 700px;
 }
 
 .PageIntro-arrowDown {

@@ -1,11 +1,13 @@
+
+{% capture root %}{% if page.root %}{{ page.root }}{% else %}{{ post.root }}{% endif %}{%endcapture%}
+
 <header class="StickyHeader">
 
-    <h1 class="StickyHeader-title"><a href="{{ site.baseurl }}/">formeo</a></h1>
+    <h1 class="StickyHeader-title"><a href="{{ site.baseurl }}/"><img src="{{ root }}img/logo-formeo.svg"> formeo</a></h1>
 
     <nav class="Navigation">
         <a class="Navigation-link" href="{{ site.baseurl }}/consulting/">Consulting</a> 
-        <a class="Navigation-link" href="{{ site.baseurl }}/advisory-board/">Advisory Board</a>
-        <a class="Navigation-link" href="{{ site.baseurl }}/about/">About</a>
+        <a class="Navigation-link" href="{{ site.baseurl }}/advisory-board/">Advisory board</a>
     </nav>
 
 </header>

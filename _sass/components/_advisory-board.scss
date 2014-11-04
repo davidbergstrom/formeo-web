@@ -1,0 +1,63 @@
+.AdvisoryBoard-intro {
+    border-bottom: 1px solid #ededed;
+    padding: 40px 0;
+    margin-left: $spacing-unit*3;
+    width: 100%;
+
+    & > h3 {
+        font-size: 3.2em;
+        margin: 0;
+        padding: 0;
+    }
+
+    & > h4 {
+        color: #888;
+        font-size: 1.2em;
+        font-weight: 300;
+        margin: 20px 0 0 0;
+        padding: 0;
+    }
+}
+
+.Advisor {
+    @extend .group;
+    border-bottom: 1px solid #ededed;
+    padding: 80px 0;
+
+    &:nth-of-type(even) {
+        background: $grey-color;
+    }
+}
+
+.Advisor-wrap {
+    margin: 0 auto;
+    max-width: 900px;
+    width: 60%;
+}
+
+.Advisor-image {
+    display: inline-block;
+    float: left;
+    height: auto;
+    max-width: 250px;
+    width: 20%;
+}
+
+.Advisor-information {
+    display: inline-block;
+    float: left;
+    padding-left: 10%;
+    width: 70%;
+}
+
+.Advisor-name {
+    font-size: 1.8em;
+}
+
+.Advisor-details {
+    color: #999;
+    font-style: italic;
+}
+
+.Advisor-bio {
+}

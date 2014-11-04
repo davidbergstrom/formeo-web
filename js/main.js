@@ -3,8 +3,6 @@
 function fullscreenFix() {
     var h = $('body').height();
 
-   console.log(h); 
-
     //set .fullscreen height
     $(".content-b").each(function(i) {
         if ($(this).innerHeight() <= h) {
