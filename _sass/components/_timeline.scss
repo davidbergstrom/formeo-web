@@ -54,8 +54,8 @@ Modules - reusable parts of our design
 #cd-timeline {
   position: relative;
   padding: 2em 0;
-  margin-top: 2em;
-  margin-bottom: 2em;
+  padding-top: 4em;
+  padding-bottom: 4em;
 }
 
 #cd-timeline::before {
@@ -71,8 +71,8 @@ Modules - reusable parts of our design
 
 @media only screen and (min-width: 1170px) {
   #cd-timeline {
-    margin-top: 3em;
-    margin-bottom: 3em;
+    padding-top: 5em;
+    padding-bottom: 5em;
   }
   #cd-timeline::before {
     left: 50%;
