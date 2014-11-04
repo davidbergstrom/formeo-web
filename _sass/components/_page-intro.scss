@@ -26,16 +26,16 @@
 
 .PageIntro--advisoryBoard {
     @extend .PageIntro;
-    background-image: url(../img/bag.jpg);
+    background-image: url(../img/advise-bag.jpg);
     min-height: 400px;
     height: 65vh;
 }
 
 .PageIntro--consulting {
     @extend .PageIntro;
-    background-image: url(../img/advise.jpg);
-    min-height: 700px;
-    height: 700px;
+    background-image: url(../img/consulting.jpg);
+    min-height: 400px;
+    height: 65vh;
 }
 
 .PageIntro-arrowDown {
