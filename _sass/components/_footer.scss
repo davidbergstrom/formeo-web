@@ -1,0 +1,27 @@
+/**
+ * Site footer
+ */
+.Footer {
+    background: $brand-color;
+    border-top: 1px solid $brand-color-dark;
+    height: $footer-height;
+    margin: 0;
+    padding: 0;
+
+    .StickyHeader-title {
+        line-height: 0;
+        height: $footer-height;
+        margin: 0;
+        padding: 0;
+
+        & > a {
+            margin-left: 0;
+        }
+    }
+
+    .Navigation {
+        margin-right: 0;
+    }
+}
+
+

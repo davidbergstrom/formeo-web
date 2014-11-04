@@ -8,6 +8,7 @@
     position: fixed;
     top: 0;   
     transition: top 0.2s ease-in-out;
+    overflow: hidden;
     width:100%; 
     z-index: 100;
 
@@ -42,3 +43,12 @@
     }
 }
 
+.StickyHeader .logo {
+    display: none;
+}
+
+@media screen and (min-width: 480px) {
+    .StickyHeader .logo {
+        display: inline;
+    }
+}

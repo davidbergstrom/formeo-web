@@ -15,6 +15,7 @@ $spacing-unit:     30px;
 $text-color:       #333;
 $background-color: #fdfdfd;
 $brand-color:      #2E3037;
+$brand-color-dark:  darken($brand-color, 5%);
 
 $grey-color:       #F3F6FB;
 $grey-color-light: lighten($grey-color, 40%);
@@ -24,6 +25,7 @@ $on-palm:          600px;
 $on-laptop:        800px;
 
 $header-height: 86px;
+$footer-height: 86px;
 
 // Using media queries with like this:
 // @include media-query($palm) {
@@ -50,5 +52,7 @@ $header-height: 86px;
         "components/page-intro",
         "components/cornerstone",
         "components/advisory-board",
-        "components/timeline"
+        "components/timeline",
+        "components/the-team",
+        "components/footer"
 ;
