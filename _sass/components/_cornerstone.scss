@@ -1,0 +1,97 @@
+.Cornerstones {
+    @extend .group;
+}
+
+.Cornerstone {
+    @extend .group;
+    border-bottom: 1px solid #ededed;
+    padding: 3em 0;
+    position: relative;
+} 
+
+.Cornerstone-img {
+    display: none;
+}
+
+.Cornerstone-title {
+    color: #101b27;
+    font-size: 1.4em;
+    font-weight: 600;
+    line-height: 1.2em;
+}
+
+.Cornerstone-body {
+    color: #777;
+    font-size: 1.2em;
+}
+
+.Cornerstone-img {
+    float: right;
+    height: auto;
+    width: 270px;
+}
+
+.Cornsterstone-img--businessSolution {
+    @extend .Cornerstone-img;
+}
+
+.Cornsterstone-img--newMethod {
+    @extend .Cornerstone-img;
+}
+
+.Cornsterstone-img--streamline {
+    @extend .Cornerstone-img;
+    position: relative;
+    margin-top: -10px;
+    width: 300px;
+}
+
+@media screen and (min-width: 820px) {
+
+    .Cornerstone {
+        border-bottom: 1px solid #ededed;
+        padding: 7em 0;
+    } 
+
+    .Cornerstone-description {
+        float: left;
+        width: 50%;
+    }
+
+    .Cornerstone-img {
+        display: inline;
+        float: right;
+        height: auto;
+        width: 320px;
+    }
+
+    .Cornerstone:nth-of-type(even) {
+        background: #F3F6FB;
+
+        .Cornerstone-description {
+            float: right;
+        }
+
+        .Cornerstone-img {
+            float: left;
+        }
+    }
+
+    .Cornerstone-title {
+        font-size: 2em;
+        font-weight: 600;
+    }
+
+    .Cornerstone-body {
+        color: #777;
+        font-size: 1.2em;
+    }
+
+    .Cornerstone-img {
+        float: right;
+        height: auto;
+        width: 270px;
+    }
+
+}
+

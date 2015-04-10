@@ -1,0 +1,54 @@
+/**
+ * Header 
+ */
+
+.StickyHeader {
+    background: #2e3037;
+    height: $header-height;
+    position: fixed;
+    top: 0;   
+    transition: top 0.2s ease-in-out;
+    overflow: hidden;
+    width:100%; 
+    z-index: 100;
+
+    &.is-scrollingUp {
+        top: -($header-height); 
+    }
+}
+
+.StickyHeader-title {
+    font-size: 2em;
+    font-weight: 300;
+    line-height: 56px;
+    letter-spacing: -1px;
+    margin: 0;
+    float: left;
+
+    & > a,
+    & > a:visited {
+        color: white;
+        line-height: $header-height;
+        margin-left: $spacing-unit;
+        outline: none;
+    }
+
+    & > a:hover {
+        text-decoration: none;
+    }
+
+    & img {
+        height: 45px;
+        width: auto;
+    }
+}
+
+.StickyHeader .logo {
+    display: none;
+}
+
+@media screen and (min-width: 480px) {
+    .StickyHeader .logo {
+        display: inline;
+    }
+}

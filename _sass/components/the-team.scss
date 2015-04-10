@@ -1,0 +1,106 @@
+.TheTeam {
+    @extend .group;
+    background: $brand-color;
+    padding: 3em 0;
+
+    h2 {
+        color: white;
+        font-size: 2.5em;
+        font-style: italic;
+        text-align: center;
+        margin-bottom: 70px;
+    }
+}
+
+.TeamMember {
+    color: white;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    text-align: center;
+    width: 75%;
+}
+
+.TeamMember-image {
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 200px;
+}
+
+.TeamMember-name {
+    font-family: $heading-font-family;
+    font-size: 1.2em;
+}
+
+.TeamMember-email {
+    font-size: 1em;
+    font-weight: 300;
+}
+
+@media screen and (min-width: 820px) {
+    .TheTeam {
+        padding: 5em 0;
+
+        h2 {
+            font-size: 2.5em;
+            text-align: center;
+            margin-bottom: 70px;
+        }
+    }
+
+    .TeamMember {
+        float: left;
+        text-align: center;
+        width: 50%;
+    }
+
+    .TeamMember-image {
+        height: auto;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        width: 200px;
+    }
+
+    .TeamMember-name {
+        font-size: 1.2em;
+    }
+
+    .TeamMember-email {
+        font-size: 1em;
+        font-weight: 300;
+    }
+}
+
+@media screen and (min-width: 1180px) {
+    .TheTeam {
+        padding: 5em 0;
+
+        h2 {
+            font-size: 2.5em;
+            text-align: center;
+            margin-bottom: 70px;
+        }
+    }
+
+    .TeamMember {
+        float: left;
+        text-align: center;
+        width: 25%;
+    }
+
+    .TeamMember-image {
+        height: auto;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        width: 200px;
+    }
+
+    .TeamMember-name {
+        font-size: 1.2em;
+    }
+
+    .TeamMember-email {
+        font-size: 1em;
+        font-weight: 300;
+    }
+}
