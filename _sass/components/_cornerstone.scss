@@ -4,7 +4,6 @@
 
 .Cornerstone {
     @extend .group;
-    border-bottom: 1px solid #ededed;
     padding: 3em 0;
     position: relative;
 } 
@@ -49,7 +48,6 @@
 @media screen and (min-width: 820px) {
 
     .Cornerstone {
-        border-bottom: 1px solid #ededed;
         padding: 7em 0;
     } 
 
@@ -66,7 +64,7 @@
     }
 
     .Cornerstone:nth-of-type(even) {
-        background: #F3F6FB;
+        background: #fff;
 
         .Cornerstone-description {
             float: right;
